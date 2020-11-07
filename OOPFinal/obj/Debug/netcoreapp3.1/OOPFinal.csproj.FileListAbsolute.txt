@@ -11,3 +11,16 @@ C:\Users\kao_g\source\repos\OOPFinal\OOPFinal\obj\Debug\netcoreapp3.1\OOPFinal.c
 C:\Users\kao_g\source\repos\OOPFinal\OOPFinal\obj\Debug\netcoreapp3.1\OOPFinal.dll
 C:\Users\kao_g\source\repos\OOPFinal\OOPFinal\obj\Debug\netcoreapp3.1\OOPFinal.pdb
 C:\Users\kao_g\source\repos\OOPFinal\OOPFinal\obj\Debug\netcoreapp3.1\OOPFinal.genruntimeconfig.cache
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\bin\Debug\netcoreapp3.1\OOPFinal.exe
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\bin\Debug\netcoreapp3.1\OOPFinal.deps.json
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\bin\Debug\netcoreapp3.1\OOPFinal.runtimeconfig.json
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\bin\Debug\netcoreapp3.1\OOPFinal.runtimeconfig.dev.json
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\bin\Debug\netcoreapp3.1\OOPFinal.dll
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\bin\Debug\netcoreapp3.1\OOPFinal.pdb
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\obj\Debug\netcoreapp3.1\OOPFinal.csprojAssemblyReference.cache
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\obj\Debug\netcoreapp3.1\OOPFinal.AssemblyInfoInputs.cache
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\obj\Debug\netcoreapp3.1\OOPFinal.AssemblyInfo.cs
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\obj\Debug\netcoreapp3.1\OOPFinal.csproj.CoreCompileInputs.cache
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\obj\Debug\netcoreapp3.1\OOPFinal.dll
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\obj\Debug\netcoreapp3.1\OOPFinal.pdb
+C:\Users\kao_g\OneDrive\เอกสาร\GitHub\OOPFinal\OOPFinal\obj\Debug\netcoreapp3.1\OOPFinal.genruntimeconfig.cache
