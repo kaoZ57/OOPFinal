@@ -8,7 +8,10 @@ namespace OOPFinal
         {
             Game game = new Game();
 
-            game.AddPlayer(new Player("Kao"));
+            Console.Write("Enter name =");
+            string name = Console.ReadLine();
+
+            game.AddPlayer(new Player(name));
             game.Play();
 
             Console.ReadKey();
