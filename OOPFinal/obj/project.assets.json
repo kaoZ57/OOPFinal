@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kao_g\\source\\repos\\OOPFinal\\OOPFinal\\OOPFinal.csproj",
+      "projectUniqueName": "C:\\Users\\kao_g\\OneDrive\\เอกสาร\\GitHub\\OOPFinal\\OOPFinal\\OOPFinal.csproj",
       "projectName": "OOPFinal",
-      "projectPath": "C:\\Users\\kao_g\\source\\repos\\OOPFinal\\OOPFinal\\OOPFinal.csproj",
+      "projectPath": "C:\\Users\\kao_g\\OneDrive\\เอกสาร\\GitHub\\OOPFinal\\OOPFinal\\OOPFinal.csproj",
       "packagesPath": "C:\\Users\\kao_g\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kao_g\\source\\repos\\OOPFinal\\OOPFinal\\obj\\",
+      "outputPath": "C:\\Users\\kao_g\\OneDrive\\เอกสาร\\GitHub\\OOPFinal\\OOPFinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kao_g\\AppData\\Roaming\\NuGet\\NuGet.Config",
