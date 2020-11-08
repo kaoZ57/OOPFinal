@@ -7,25 +7,48 @@ namespace OOPFinal
 {
     class Game 
     {
-        private List<Player> players = new List<Player>();
+        private Player players;
 
         public void AddPlayer(Player player)
         {
-            players.Add(player);
+            this.players = player;
         }
 
         public void Play()
         {
             ShowProgress();
-            foreach (var P in players)
+            Console.WriteLine("Name : {0}", players.Getname);
+            CreateCharacter();
+        }
+
+        private void CreateCharacter()
+        {
+        UP:
+            Console.WriteLine("---------------");
+            Console.WriteLine("[1] Assasin");
+            Console.WriteLine("[2] Destroyer");
+            Console.WriteLine("[3] Archer");
+            Console.Write("Enter you number Character : ");
+            string input = Console.ReadLine();
+            switch (input)
             {
-                Console.WriteLine(P.Getname);
-                P.AddCharacter(new Assasin());
-                P.AddCharacter(new Destroyer());
-                P.AddCharacter(new Archer());
-                P.charactersAttack();
+                case "1":
+                    players.AddCharacter(new Assasin());
+                    players.charactersAttack();
+                    break;
+                case "2":
+                    players.AddCharacter(new Destroyer());
+                    players.charactersAttack();
+                    break;
+                case "3":
+                    players.AddCharacter(new Archer());
+                    players.charactersAttack();
+                    break;
+                default:
+                    goto UP;
             }
         }
+
 
         private void ShowProgress()
         {
