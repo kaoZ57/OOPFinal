@@ -9,6 +9,14 @@ namespace OOPFinal
         private string Name;
         private List<Character> characterslist = new List<Character>();
 
+        public List<Character> Getcharacter
+        {
+            get
+            {
+                return characterslist;
+            }
+        }
+
         public string Getname
         {
             get { return Name; } 
@@ -23,11 +31,22 @@ namespace OOPFinal
         }
         public void charactersAttack()
         {
-            foreach (var C in characterslist)
+            Console.WriteLine("'Press Enter to Attack'");
+            ConsoleKeyInfo info = Console.ReadKey();
+            if (info.Key == ConsoleKey.Enter)
             {
-                C.Attack();
-                C.Eat();
+                foreach (var C in characterslist)
+                {
+                    Console.Write(C.Name + " ");
+                    C.Attack();
+                    Console.WriteLine("");
+                }
             }
+            else
+            {
+                charactersAttack();
+            }
+            charactersAttack();
         }
     }
 }
