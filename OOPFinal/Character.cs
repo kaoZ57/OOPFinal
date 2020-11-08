@@ -4,38 +4,63 @@ using System.Text;
 
 namespace OOPFinal
 {
-    abstract class Character : IAction
-    {
-        public abstract void Attack();
-        public void Eat()
-        {
-            Console.WriteLine("Eat");
-        }
-    }
     interface IAction
     {
-        void Eat();
+        void Attack();
+
+        void Defend();
+
+        void Move();
+    }
+
+    abstract class Character : IAction
+    {
+        public string Name { get; set; }
+        public abstract void Attack();
+        public virtual void Defend()
+        {   
+            Console.Write("Defend");
+        }
+        public void Move()
+        {
+            Console.Write("{0} Move", Name);
+        }
     }
 
     class Assasin : Character 
     {
+        public Assasin()
+        {
+            this.Name = "Assasin";
+        }
+
         public override void Attack()
         {
-            Console.WriteLine("Assasin Attack");
+            Console.Write("Fencing");
         }
     }
+
     class Destroyer : Character 
     {
+        public Destroyer()
+        {
+            this.Name = "Destroyer";
+        }
         public override void Attack()
         {
-            Console.WriteLine("Destroyer Attack");
+            Console.Write("Smash");
         }
     }
+
     class Archer : Character 
     {
+        public Archer()
+        {
+            this.Name = "Archer";
+        }
         public override void Attack()
         {
-            Console.WriteLine("Archer Attack");
+            Console.Write("Shoot a bow");
         }
     }
 }
